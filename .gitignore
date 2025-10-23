@@ -1,0 +1,9 @@
+node_modules
+.pnpm-store
+.next
+out
+dist
+coverage
+.env
+.DS_Store
+.husky/_
