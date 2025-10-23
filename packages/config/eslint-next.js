@@ -1,0 +1,14 @@
+module.exports = {
+  root: false,
+  extends: [
+    "next/core-web-vitals",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended"
+  ],
+  parser: "@typescript-eslint/parser",
+  parserOptions: {
+    project: "./tsconfig.json"
+  },
+  plugins: ["@typescript-eslint"],
+  rules: {}
+};
